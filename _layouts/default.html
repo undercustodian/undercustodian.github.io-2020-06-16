@@ -9,8 +9,10 @@
         <title>{{page.title}} - Undercustodian</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-
+         <!-- <link rel="stylesheet" href="/css/labs.css"> -->
         <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/bootstrap.css">
+
         <!-- <<style>
             body {
                 padding-top: 50px;
@@ -41,6 +43,15 @@
         <link rel="stylesheet" href="/css/bootstrap-theme.css">
         <link rel="stylesheet" href="/css/main.css">
         <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: { inlineMath: [['$','$'],['\\(','\\)']] }
+  });
+</script>
+        <script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+ <!--  {% if page.no-title %}{% else %}<h1 class="htitle"> {{page.title}} </h1>{% endif %} -->
+
     </head>
     <body>
        <div class="navbar navbar-inverse navbar-fixed-top" >
@@ -48,6 +59,14 @@
         <link rel="stylesheet" href="/css/bootstrap-theme.css">
         <link rel="stylesheet" href="/css/main.css">
         <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: { inlineMath: [['$','$'],['\\(','\\)']] }
+  });
+</script>
+        <script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+ <!-- {% if page.no-title %}{% else %}<h1 class="htitle"> {{page.title}} </h1>{% endif %} -->
     </head>
     <body>
        <div class="navbar navbar-inverse" >
@@ -60,7 +79,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">{{page.project_name}}</a>
+          <!-- <<a class="navbar-brand" href="#">{{page.project_name}}</a> -->
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -71,8 +90,8 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
+                <li><a href="/Marzo2014.pdf">Marzo</a></li>
+                <li><a href="/Aprile2014.pdf">Aprile</a></li>
                 <li><a href="#">Something else here</a></li>
                 <li class="divider"></li>
                 <li class="dropdown-header">Nav header</li>
@@ -98,21 +117,37 @@
     
     <!-- Main jumbotron for a primary marketing message or call to action -->
      <!--  <div class="jumbotron"> -->
-     <h1 class="htitle"> {{page.title}} </h1> 
+     <!-- {% if page.no-title %}{% else %}<h1 class="htitle"> {{page.title}} </h1>{% endif %} -->
+
        <!-- <div class="container">
         <h1>Hello, world!</h1>
         <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
         <p><a class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
       </div>
      </div> -->
-
     <div class="container">
+     <!--  {% if page.no-title %}{% else %}<h1 class="htitle"> {{page.title}} </h1>{% endif %} -->
       <!-- Example row of columns -->
+     <!--  <div class="jumbotron"> -->
+    <!--   {% if page.no-title %}{% else %}<h1 class="htitle">c {{page.title}} </h1>{% endif %}-->
+     <div class="row">
+<!--  <div class="jumbotron"> -->
+     <!--  {% if page.no-title %}{% else %}<h1 class="htitle"> v {{page.title}} </h1>{% endif %}-->
+{% include blog_header.html %}
 {{ content }}
-      <hr>
+        </div>
+      </div>
 
+      <hr>
       <footer>
-        <p>&copy; {{page.license}} </p>
+        {% if page.license %}
+           <p>&copy; {{page.license}} </p>
+        {% endif %}
+<a href="http://www.mathjax.org">
+  <img title="Powered by MathJax"
+    src="http://cdn.mathjax.org/mathjax/badge/badge.gif"
+    border="0" alt="Powered by MathJax" />
+</a>
       </footer>
     </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
@@ -127,5 +162,31 @@
             g.src='//www.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
-    </body>
-</html>
+   <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'httpuundercustodianndercustodiangithubio'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+     <a href="http://foo.com/bar.html#disqus_thread">Link</a>
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'httpuundercustodianndercustodiangithubio'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+ 
