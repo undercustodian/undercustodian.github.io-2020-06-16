@@ -2,6 +2,7 @@
 title: "Prova newsletter: 23 marzo, 2014"
 author: UnderCustodian
 user: undercustodian
+options: [["Google", "http://www.google.it"],["WikiPedia", "http://it.wikipedia.org/wiki/Pagina_principale"],["UnderCustodian","https://github.com/undercustodian"]]
 layout: post
 ---
 
