@@ -7,3 +7,4 @@ layout: post
 ---
 
 Prova $\sum_{i = 0}^{n} a^i$ vediamo come viene
+prova 2 da cellulare
