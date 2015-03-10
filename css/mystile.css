@@ -1,1 +1,2 @@
-.post, #disqus_thread {margin-left: 5px; margin-right: 5px; max-width: 600px;}
+.post, #disqus_thread {margin-left: 5px; margin-right: 5px;}
+.post-content {max-width: 600px;}
