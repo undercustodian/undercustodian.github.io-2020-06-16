@@ -26,7 +26,7 @@ Noi facciamo parte dell'univarso noi siamo gli oservatori e lo interpretiamo.
 ### Universo monolitico ###
 
 Consideriamo l'universo il suo oservatore e il nulla che e contenuto nell'insieme vuoto, in base a quello che sie detto.
-L'osservatore è linsieme delle interazioni con l'universo con delle relazioni e sapiami essere appartenere a $O_0 O/$. Visto quanto detto indichiamo l'osservatore dell'universo con
+L'osservatore è linsieme delle interazioni con l'universo con delle relazioni e sapiami essere appartenere a \`bb O_0 O/\'. Visto quanto detto indichiamo l'osservatore dell'universo con
 $O_0=O/$
 e luniverso con
 $O_0=U_0$
