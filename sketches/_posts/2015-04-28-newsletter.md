@@ -1,5 +1,5 @@
 ---
-title: "Prova newsletter: 23 marzo, 2014"
+title: "Prova ascimath newsletter: 28 aprile, 2015"
 author: UnderCustodian
 user: undercustodian
 layout: post
@@ -26,7 +26,10 @@ Noi facciamo parte dell'univarso noi siamo gli oservatori e lo interpretiamo.
 ### Universo monolitico ###
 
 Consideriamo l'universo il suo oservatore e il nulla che e contenuto nell'insieme vuoto, in base a quello che sie detto.
-L'osservatore è linsieme delle interazioni con l'universo con delle relazioni e sapiami essere appartenere a $O/$. Visto quanto detto indichiamo l'osservatore dell'universo con $\mathbb{O_0} = O/$ e luniverso con $bar bb O_0 = bb U_0$
+L'osservatore è linsieme delle interazioni con l'universo con delle relazioni e sapiami essere appartenere a $O_0 O/$. Visto quanto detto indichiamo l'osservatore dell'universo con
+$O_0=O/$
+e luniverso con
+$O_0=U_0$
 
 ### Universo binario ###
 
@@ -42,7 +45,7 @@ Si vedo come l'universo binario si deduce dall l'universo monolitico in modo nat
 * Il pinto 1 è linsieme delle sensazioni dell'universo monolitico cioe nessuno. 
 * Il Punto 2 e l'osservatore dell'universo monolitico
 
-Quindi le sensazione sono a loro volta osservatori. L'di tutte le sensazioni che si possono avere sono $bb O_0 = {O/}$ e l'universo è $bb U_1$. Ora possiamo dire che:
+Quindi le sensazione sono a loro volta osservatori. L'di tutte le sensazioni che si possono avere sono $bb O_0 = {O}$ e l'universo è $bb U_1$. Ora possiamo dire che:
 
 >>> l'osservatore siamo noi che facciamo il test, l'universo è lambiente e il soggeto dove facciano i test
 
@@ -63,3 +66,6 @@ Quindi sia l'universo che l'osservatore si danno dando i possibili risultati dei
 ## Universo razzionale ##
 
 ## Costruzione dei razionali ##
+ 
+ $ O_0 $
+ 
