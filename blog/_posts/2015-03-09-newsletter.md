@@ -88,7 +88,10 @@ da
 non prolunghiamoci oltre ...
 
 #### Nota 3: Cosa si vuole
-Scrivere appunti di getto, quindi in modo intuitivo, senza addentrarsi troppo nella formattazione, che abbiano una bella presentazione. Scrivi, cancelli, riscrivi, modificare ecc. Per avvicinarsi a questo manca un modo semplice per disegnare, ottenibile anche affiancando un programma di grafica o aiutandosi con carta e penna. La grafica sarà un altro argomento da affrontare, per ora diamoci dentro di xfig e inkscape e svg e POV-Ray, carta e matita.
+Scrivere appunti di getto, quindi in modo intuitivo, senza addentrarsi troppo nella formattazione, che abbiano una bella presentazione. Scrivi, cancelli, riscrivi, modificare ecc. Per avvicinarsi a questo manca un modo semplice per disegnare, 
+<math><mn>2</mn><n0>+</mo><mn>2</mn></mnth
+
+ottenibile anche affiancando un programma di grafica o aiutandosi con carta e penna. La grafica sarà un altro argomento da affrontare, per ora diamoci dentro di xfig e inkscape e svg e POV-Ray, carta e matita.
 
 
 [sorgente](https://github.com/undercustodian/undercustodian.github.io/blob/master/blog/_posts/2015-03-09-newsletter.md)
